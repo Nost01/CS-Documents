@@ -5,7 +5,11 @@
 		<meta charset="UTF-8"> // Sets the encoding to display special symbols and characters
 		<title>Nost's Webpage</title> // Webpage's browser tab
 	</head>
-	<body> // Displayed content - text, images, lists links etc...
-		<h1>Hello World!</h1>
+	<body> // All displayed content - text, images, lists links etc...
+		<main> // Main content of the webpage
+			<h1>Hello World!</h1>
+		</main>
+		<footer> // Section with author, copyright data, links, terms of use, contact info etc...
+		</footer>
 	</body>
 </html>
