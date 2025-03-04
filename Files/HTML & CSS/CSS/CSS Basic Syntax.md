@@ -8,3 +8,5 @@ div.bold-text {
 div.bold-text is the selector
 font-weight is the property
 700 is the value
+
+Example:
