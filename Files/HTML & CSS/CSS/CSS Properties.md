@@ -5,11 +5,21 @@ color
 	RGB (rgb(111, 111,111))
 	HSL (hsl(11, 11%, 11%))
 
+background-image 
+	Sets an element's background image.
+
 background-color
 	Sets an element's background color.
 	HEX (#111111)
 	RGB (rgb(111, 111,111))
 	HSL (hsl(11, 11%, 11%))
+
+border-color
+	Sets the color of the four borders.
+
+border-style
+	Specifies what kind of border to display.
+	Options: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
 
 font-family
 	Determines the font of an element.
@@ -18,6 +28,9 @@ font-family
 font-size
 	Sets the size of the font.
 	Ex. 69px
+
+font-style
+	Options: Normal, Italic, Oblique.
 
 font-weight
 	Affects the boldness of the text.
@@ -45,6 +58,9 @@ margin
 	margin: top/bottom right/left;
 	margin: top right/left bottom;
 	margin: top right bottom left;
+
+max-width
+	Sets the maximum width of an element.
 
 width
 	Wide
