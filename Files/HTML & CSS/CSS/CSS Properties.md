@@ -1,18 +1,23 @@
 
 color
 	Sets an element's text color
-	HEX (#111111)
-	RGB (rgb(111, 111,111))
-	HSL (hsl(11, 11%, 11%))
+	hex (#111111)
+	rgb (rgb(111, 111,111))
+	hsl (hsl(11, 11%, 11%))
+	rgba (255, 255, 255, 0.1-1.0)
+	hsla (225, %, %, 0.1-1.0)
+
+background
+	linear-gradient(deg, rgb(), rgb())
 
 background-image 
 	Sets an element's background image.
 
 background-color
 	Sets an element's background color.
-	HEX (#111111)
-	RGB (rgb(111, 111,111))
-	HSL (hsl(11, 11%, 11%))
+	hex (#111111)
+	rgb (rgb(111, 111,111))
+	hsl (hsl(11, 11%, 11%))
 
 border-color
 	Sets the color of the four borders.
@@ -20,6 +25,12 @@ border-color
 border-style
 	Specifies what kind of border to display.
 	Options: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
+
+box-shadow
+	Apply one or more shadows around an element.
+	box-shadow: offsetX(px) offsetY(px) blurRadius spreadRadius color;
+		offsetX positive value moves the shadow right, negative left.
+		offsetY positive value moves the shadow down, negative up.
 
 font-family
 	Determines the font of an element.
@@ -53,6 +64,9 @@ padding
 border
 	Adds space between the margin and the padding.
 
+border-left 
+	shorthand for border-left-width, border-left-style, border-left-color.
+
 margin
 	Increases the space between the borders of a box and the borders of adjacent boxes.
 	margin: top/bottom right/left;
@@ -85,4 +99,5 @@ justify-content
 align-items
 	Aligns items across the cross axis (vertical).
 
-
+opacity
+	How non-transparent something is.
