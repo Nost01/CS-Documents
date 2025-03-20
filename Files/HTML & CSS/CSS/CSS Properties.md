@@ -67,6 +67,22 @@ border
 border-left 
 	shorthand for border-left-width, border-left-style, border-left-color.
 
+border-radius
+	Rounds the corners of an element.
+	Defines the radius of the element's corners.
+
+filter 
+	Defines visual effects.
+	Ex. Blur, saturation
+
+transform
+	Applies a 2D or 3D transformation to an element.
+	Ex. Rotate, scale, move, skew
+
+overflow
+	Controls what happens to content that is too big to fit into an area.
+	Ex. Visible, hidden, scroll, auto
+
 margin
 	Increases the space between the borders of a box and the borders of adjacent boxes.
 	margin: top/bottom right/left;
