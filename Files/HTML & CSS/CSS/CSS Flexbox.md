@@ -11,4 +11,7 @@ Flex Property
 		Shrinks the size of the div in the container.
 	*flex-basis*
 		Sets the initial size of a flex item.
-	
+
+justify-content
+	Aligns flex items 
+	- space-evenly

@@ -10,6 +10,8 @@
 		<main> // Main content of the webpage
 			<h1>Hello World!</h1>
 		</main>
+		<nav>
+		</nav>
 		<footer> // Section with author, copyright data, links, terms of use, contact info etc...
 		</footer>
 	</body>

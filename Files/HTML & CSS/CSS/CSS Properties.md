@@ -39,6 +39,7 @@ font-family
 font-size
 	Sets the size of the font.
 	Ex. 69px
+	Ex. min(vw, em);
 
 font-style
 	Options: Normal, Italic, Oblique.
@@ -118,3 +119,6 @@ align-items
 
 opacity
 	How non-transparent something is.
+
+aspect-ratio
+	X / X;
