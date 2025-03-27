@@ -94,6 +94,7 @@ max-width
 
 width
 	Wide
+	max(rem, vw);
 
 height
 	Tall
