@@ -23,5 +23,6 @@ Ex. Array
 
     console.log(rows[0]); // will print "Digga1".
     
-    rows[1] = "Digga22"; // Index starts at 0
-    console.log(rows) // will print ["Digga1", "Digga22", "Digga3]
+    rows[1] = "Digga22"; // Changes second index (starts at 0) to a new value
+    console.log(rows); // will print ["Digga1", "Digga22", "Digga3]
+    rows[rows.length]; // # of contents in array
