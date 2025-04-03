@@ -12,6 +12,9 @@
 		</main>
 		<nav>
 		</nav>
+		<form>
+			<section role=""></section>
+		</form>
 		<footer> // Section with author, copyright data, links, terms of use, contact info etc...
 		</footer>
 	</body>
