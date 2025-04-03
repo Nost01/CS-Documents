@@ -16,6 +16,7 @@ variable = new-number;
 variable = variable2;
     Can reassign a variables.
 
+const variable; // Cannot be reassigned.
 
 
 Ex. Array
@@ -27,3 +28,7 @@ Ex. Array
 
     rows[rows.length]; // # of contents in array
     rows[rows.length - 1]; // Prints last value in array
+
+    Methods
+        .push() // Pushes a value to the end of an array.
+        .pop() // Removes the last element from an array AND returns that element.
