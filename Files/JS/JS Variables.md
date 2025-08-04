@@ -18,10 +18,9 @@ variable = variable2;
 
 const variable; // Cannot be reassigned.
 
-
 Ex. Array
     let rows = ["Digga1", "Digga2", "Digga3"]
-    console.log(rows[0]); // will print "Digga1".
+    console.log(rows[0]); // will print "Digga1"
     
     rows[1] = "Digga22"; // Changes second index (starts at 0) to a new value
     console.log(rows); // will print ["Digga1", "Digga22", "Digga3]
@@ -29,6 +28,3 @@ Ex. Array
     rows[rows.length]; // # of contents in array
     rows[rows.length - 1]; // Prints last value in array
 
-    Methods
-        .push() // Pushes a value to the end of an array.
-        .pop() // Removes the last element from an array AND returns that element.

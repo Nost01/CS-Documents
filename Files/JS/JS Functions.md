@@ -4,9 +4,9 @@ function new(parameter) {
 
 const temp_val = new("argument"); 
 console.log(temp_val);
-// Call the function by attaching it to a variable. 
-// Pass an argument for the parameter part of the function call.
-// Outputs to the console.
+    // Call the function by attaching it to a variable. 
+    // Pass an argument for the parameter part of the function call.
+    // Outputs to the console.
 
 
 EXAMPLE

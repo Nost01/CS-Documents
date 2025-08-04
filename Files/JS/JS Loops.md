@@ -14,3 +14,6 @@ for-of loops - Iterates over each item in an iterable object and temporarily ass
     for (const x_value of x_array) {
         result = result + x_value; // Concatenation
     }
+
+Notes
+    i = i + 1; -> i += 1; -> i++;
