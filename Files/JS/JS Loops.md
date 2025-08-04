@@ -1,4 +1,4 @@
-for loops
+for 
     for (iterator; condition; iteration) {
         logic;
     }
@@ -10,10 +10,26 @@ for loops
     Iteration - Tells the loop what to do with the iterator after each run.
 
 
-for-of loops - Iterates over each item in an iterable object and temporarily assigns it to a variable.
+for-of 
+    Iterates over each item in an iterable object and temporarily assigns it to a variable.
+    
     for (const x_value of x_array) {
         result = result + x_value; // Concatenation
     }
 
-Notes
-    i = i + 1; -> i += 1; -> i++;
+else if
+    Will move to the next condition if the the previous is false.
+
+    if (false) {
+        logic;
+    } else if {
+        console.log("Since if statement is false, I will print this message instead!");
+    }
+
+
+while
+    Will run over and over until the condition specified is no longer true.
+
+    while(condition) {
+        logic;
+    }

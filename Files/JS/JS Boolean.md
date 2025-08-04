@@ -1,6 +1,9 @@
 Operators
     == 
+    ===
     != 
+    !==
+    -=
     > Greater than
     < Less than
 
