@@ -14,3 +14,5 @@ Pyramid
     }
 
     console.log(result);
+
+
