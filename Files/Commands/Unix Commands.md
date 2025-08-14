@@ -1,6 +1,6 @@
 
 Create a new directory
-	mkdir
+	mkdir [name]
 
 Creating a new file
 	touch [file]

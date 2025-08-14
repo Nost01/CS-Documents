@@ -22,7 +22,7 @@ Checking status or log history
 	git log
 
 Retrieve updated files from the repository on GitHub
-	 git pull
+	git pull
 
 Deleting and moving files
 	git rm [file]
